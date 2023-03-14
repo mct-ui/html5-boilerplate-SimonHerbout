@@ -319,7 +319,18 @@ a:active {
 
 .o-row {
   padding: $space-m $space-m 0;
+  display: flow-root;
 }
+
+.o-row--primary {
+  background-color: $color-primary;
+}
+
+.o-row--dark {
+  background-color: get-color(color-gray,900);
+  color: white;
+}
+
 
 /*
     Objects: Container
@@ -328,6 +339,8 @@ a:active {
 */
 
 .o-container {
+  max-width: 50rem;
+  margin: auto;
 }
 
 /*
