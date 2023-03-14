@@ -156,6 +156,10 @@ img {
 */
 
 html {
+  font-size: calc($root-font-size / 16 * 100%);
+  font-family: $font-family-primary;
+  line-height: 1.5;
+  color: $color-text;
 }
 
 /*
@@ -163,6 +167,8 @@ html {
 */
 
 ::selection {
+  background-color: $color-primary-light;
+  color: white;
 }
 
 /*
